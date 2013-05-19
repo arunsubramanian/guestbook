@@ -1,4 +1,6 @@
 class EntriesController < ApplicationController
+#Entries controller code
+
   def sign_in
    @name = params[:visitor_name]
    unless @name.blank?
